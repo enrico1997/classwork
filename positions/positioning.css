@@ -1,0 +1,48 @@
+/**
+ * Positioning Layout Activity
+ **/
+
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+body {
+	font size: 24px;
+	line-height: 32px;
+	color: #333;
+}
+
+header {
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #333;
+	background: #ccc;
+}
+
+section {	
+	padding: 20px;
+  	margin-bottom: 20px;
+  	background: #ccc;
+}
+
+#absolute {
+	float: left;
+	color: white;
+	background-color: #666;
+	width: 33%;
+}
+
+#fixed {
+	float: left;
+	color: white;
+	background-color: #666;
+	width: 33%;
+}
+
+#relative {
+	float: left;
+	color: white;
+	background-color: #666;
+	width: 33%;
+}
